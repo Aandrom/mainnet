@@ -406,7 +406,7 @@ window.addEventListener('load', function () {
     $("#sendselector").css("marginTop",perc($(window).height(),45)+106);
 
     $("#curbal").css("marginTop",perc($(window).height(),10)+120);
-    setTimeout(funtion(){canActivateZIRr();},3000)
+    setTimeout(function(){canActivateZIRr();},3000)
     $("#active").click(function () {
       onclickActivaeZIR();
     });
