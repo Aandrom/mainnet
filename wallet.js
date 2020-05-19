@@ -451,7 +451,7 @@ window.addEventListener('load', function () {
     userbalance()
     setInterval(function () {
       userbalance();
-      canActiveZIRr();
+      canActivateZIRr();
     },10000);
 
 
