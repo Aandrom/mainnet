@@ -1,0 +1,526 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(#233329), to(#63D471)) fixed;
+}
+#preload{
+  position: fixed;
+  background: -webkit-gradient(linear, left top, right bottom, from(#556270), to(#ff6b6b)) fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#preloadlogo{
+  height: 140px;
+  width: 140px;
+  margin-top: 17%;
+  margin-left: 45%;
+  animation: rotation 2s infinite linear;
+  background-image: url("img/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#logo{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-image: url("img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  user-select: none;
+  margin-top: 5%;
+  margin-left: 10%;
+  cursor: pointer;
+}
+#logedas{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  user-select: none;
+}
+#underlogo{
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  background-color: red;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, right bottom, from(#7EE8FA), to(#EEC0C6)) fixed;
+}
+#active{
+  position: absolute;
+  font-size: 20px;
+  color: ghostwhite;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  cursor: pointer;
+  display: none;
+}
+#cantactive{
+  position: absolute;
+  font-size: 20px;
+  color: ghostwhite;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  display: none;
+}
+#salesend{
+  position: absolute;
+  font-size: 20px;
+  color: ghostwhite;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+}
+
+#buytext{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#buydesctext{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+}
+#buyinput{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid gray;
+  color: ghostwhite;
+  font-size: 20px;
+}
+#yougett{
+  position: absolute;
+  font-size: 15px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+}
+.popup{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+}
+.lorr{
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  background-color: royalblue;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.lorr:hover{
+  background-color: blue
+}
+#buyt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 33px
+}
+#rejectt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 23px
+}
+.selector{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  background-color: #607d68;
+  border-radius: 5px;
+  margin-left: 10%;
+  user-select: none;
+  cursor: pointer;
+}
+.selector:hover{
+  border: 1px solid ghostwhite
+}
+#buyselectort{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 10px;
+  margin-left: 80px
+}
+#curbal{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-left: 10%
+}
+#stakeselectort{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 10px;
+  margin-left: 70px
+}
+#sendselectort{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 10px;
+  margin-left: 75px
+}
+.rightside{
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  background-color: transparent;
+  border: 0.1px solid ghostwhite;
+  margin-top: 15%;
+  margin-left: 40%;
+}
+.globalclose{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 95%;
+}
+#suminstake{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#safeend{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+#forceclose{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  background-color: #607d68;
+  border-radius: 5px;
+  margin-left: 10%;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 40%
+}
+#forceclose:hover{
+  border: 1px solid ghostwhite
+}
+#forcecloset{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 13px;
+  margin-left: 40px
+}
+
+#havestake{
+  display: none;
+}
+#stake{
+  display: none;
+}
+#stakeamountt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#stakeamountinp{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid ghostwhite;
+  color: ghostwhite;
+  font-size: 20px;
+  margin-top: 18%;
+  margin-left: 10%;
+}
+#stakelengtht{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 30%;
+  margin-left: 10%;
+}
+#stakelengthinp{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid ghostwhite;
+  color: ghostwhite;
+  font-size: 20px;
+  margin-top: 38%;
+  margin-left: 10%;
+}
+
+#startstaking{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  background-color: #607d68;
+  border-radius: 5px;
+  margin-left: 10%;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 50%
+}
+#startstaking:hover{
+  border: 1px solid ghostwhite
+}
+#startstakingt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 13px;
+  margin-left: 70px
+}
+#donthavestake{
+  display: none;
+}
+#amtosend{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#amtosendinp{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid ghostwhite;
+  color: ghostwhite;
+  font-size: 20px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+#toaddr{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 30%;
+  margin-left: 10%;
+}
+#toaddrinp{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid ghostwhite;
+  color: ghostwhite;
+  font-size: 20px;
+  margin-top: 35%;
+  margin-left: 10%;
+}
+
+#senddiv{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  background-color: #607d68;
+  border-radius: 5px;
+  margin-left: 10%;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 50%
+}
+#senddiv:hover{
+  border: 1px solid ghostwhite
+}
+#senddivt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 13px;
+  margin-left: 73px
+}
+#sendaandrom{
+  display: none;
+}
+
+
+
+
+
+
+
+#transconfirmedwrapper{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.6);
+  display: none;
+}
+#maindivtransconfirmed{
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+}
+#confirmedimg{
+  position: absolute;
+  height: 203px;
+  width: 152px;
+  background-image: url("img/transconfirmed.png");
+  margin-top: 30px;
+  margin-left:174px;
+  user-select: none;
+}
+#confirmedtext{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #003945;
+  user-select: none;
+  margin-top: 250px;
+}
+#closetransconfirmeddiv{
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  background-color: #3BC1AA;
+  margin-top: 310px;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+  margin-left: 100px;
+}
+#closetransconfirmeddiv:hover{
+  background-color: #298776;
+}
+#closetransconfirmedtext{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 20px;
+  margin-left: 127px;
+}
+
+#rejectalert{
+  position: fixed;
+  height: 40px;
+  width: 200px;
+  background-color: #2B2F5B;
+  border-radius: 10px;
+  user-select: none;
+  margin-top: 20px;
+  display: none;
+}
+#rejectalertt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+#arrowup {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #2B2F5B;
+  position: fixed;
+  margin-top: 10px;
+  display: none;
+}
+#confirmalert{
+  position: fixed;
+  height: 40px;
+  width: 200px;
+  background-color: #2B2F5B;
+  border-radius: 10px;
+  user-select: none;
+  margin-top: 20px;
+  display: none;
+}
+#confirmalertt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 12px;
+}

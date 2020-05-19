@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(#233329), to(#63D471)) fixed;
+}
+#preload{
+  position: fixed;
+  background: -webkit-gradient(linear, left top, right bottom, from(#233329), to(#63D471)) fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#preloadlogo{
+  height: 140px;
+  width: 140px;
+  margin-top: 17%;
+  margin-left: 45%;
+  animation: rotation 2s infinite linear;
+  background-image: url("img/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#logo{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background-image: url("img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  user-select: none;
+  cursor: pointer;
+}
+#underlogo{
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  cursor: pointer;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, right bottom, from(#3b7f43), to(#4fa95a)) fixed;
+
+  border-radius: 50%;
+}
+#logot{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  font-size: 30px;
+  color: ghostwhite;
+}
+.container{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  user-select: none;
+}
+#underimg1{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, right bottom, from(#3b7f43), to(#4fa95a)) fixed;
+}
+#img1{
+  background-image: url("img/logo.png");
+}
+.containt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  font-size: 22px;
+  color: ghostwhite;
+}
+#img2{
+  background-image: url("img/zirimg.png");
+}
+
+#img3{
+  background-image: url("img/stake.png");
+}
+#img4{
+  background-image: url("img/suply.png");
+}
+#start{
+  position: absolute;
+  height: 60px;
+  width: 200px;
+  background-color: #5a4fa9	;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 10px;
+  margin: 40px;
+}
+#start:hover{
+  background-color: #7163d4;
+}
+#startt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  font-size: 25px;
+  color: ghostwhite;
+  margin-top: 15px;
+  margin-left: 35px;
+}

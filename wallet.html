@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="web3.js" charset="utf-8"></script>
+    <script src="wallet.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="wallet.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <title>Aandrom</title>
+  </head>
+  <body>
+    <div id="underlogo"></div>
+    <div id="logo"></div>
+    <p id="logedas"></p>
+    <p id="active">Active ZIR</p>
+    <p id="cantactive">You Can't active ZIR</p>
+    <p id="salesend"></p>
+    <p id="curbal"></p>
+
+
+    <div class="selector" id="buyselector">
+      <p id="buyselectort">Buy</p>
+    </div>
+    <div class="selector" id="stakeselector">
+      <p id="stakeselectort">Stake</p>
+    </div>
+
+    <div class="selector" id="sendselector">
+      <p id="sendselectort">Send</p>
+    </div>
+
+
+    <div class="rightside" id="sendaandrom">
+      <p class="globalclose" id="closesend">x</p>
+
+
+      <p id="amtosend">Amount:</p>
+      <input type="text" name="" value="" id="amtosendinp">
+
+      <p id="toaddr">Address:</p>
+      <input type="text" name="" value="" id="toaddrinp">
+      <div id="senddiv">
+        <p id="senddivt">SEND</p>
+      </div>
+    </div>
+
+
+    <div class="rightside" id="stake">
+      <p class="globalclose">x</p>
+      <div id="havestake">
+        <p id="suminstake"></p>
+        <p id="safeend"></p>
+        <div id="forceclose">
+          <p id="forcecloset">Close Staking</p>
+        </div>
+
+      </div>
+
+      <div id="donthavestake">
+        <p id="stakeamountt"></p>
+        <input type="text" name="" value="" id="stakeamountinp">
+
+        <p id="stakelengtht">Stake length in days:</p>
+        <input type="text" name="" value="1" id="stakelengthinp">
+
+        <div id="startstaking">
+          <p id="startstakingt">STAKE</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="popup" id="buydiv">
+      <p id="buytext">Price for 1 Aandrom is <span id="currprice">0</span> ETH<br>
+                      Every day the price rises by 0.00001 ETH
+       </p>
+
+       <p id="buydesctext">Enter amount in ETH <br> <span id="ethavailable">0</span> ETH available</p>
+
+       <input type="text" name="" value="" id="buyinput">
+       <p id="yougett">You will get <span id="yougetv">0</span> Aandrom.</p>
+       <div class="lorr" id="buy">
+          <p id="buyt">Buy</p>
+       </div>
+
+       <div class="lorr" id="reject">
+          <p id="rejectt">Reject</p>
+       </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- alert for confirmed transaction -->
+       <div id="transconfirmedwrapper">
+         <div id="maindivtransconfirmed">
+
+           <div id="confirmedimg"></div>
+           <p id="confirmedtext">Transaction Confirmed</p>
+
+           <div id="closetransconfirmeddiv">
+             <p id="closetransconfirmedtext">Close</p>
+           </div>
+
+         </div>
+       </div>
+
+       <!-- alert for confirm transaction -->
+
+       <div id="arrowup"></div>
+    <div id="confirmalert">
+     <p id="confirmalertt">Confirm Transaction</p>
+    </div>
+    <div id="rejectalert">
+     <p id="rejectalertt">Transaction Rejected</p>
+    </div>
+
+    <div id="preload">
+          <div id="preloadlogo"></div>
+        </div>
+  </body>
+</html>

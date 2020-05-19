@@ -1,0 +1,484 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(#233329), to(#63D471)) fixed;
+}
+#preload{
+  position: fixed;
+  background: -webkit-gradient(linear, left top, right bottom, from(#556270), to(#ff6b6b)) fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#preloadlogo{
+  height: 140px;
+  width: 140px;
+  margin-top: 17%;
+  margin-left: 45%;
+  animation: rotation 2s infinite linear;
+  background-image: url("img/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+#logo{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-image: url("img/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  user-select: none;
+  margin-top: 5%;
+  margin-left: 10%;
+  cursor: pointer;
+}
+#logot{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  user-select: none;
+}
+.headert{
+  position: absolute;
+  font-size: 20px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+.headert:hover{
+  color: #2B2F5B;
+}
+#addmm{
+  position: absolute;
+  height: 20px;
+  width: 160px;
+  background-color: #2B2F5B;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#addmm:hover{
+  background-color: #55587b;
+}
+#salesend{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#totalpurchaset{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#totalStaket{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#circulatet{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#centaurus{
+  position: absolute;
+  height: 3px;
+  user-select: none;
+  background-color: #2B2F5B;
+}
+#yourbalancet{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#yourstaket{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#protectedimg{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-image: url("img/zirimg.png");
+  background-position: center;
+  background-size: contain;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+}
+#stakedesimg{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-image: url("img/staking.png");
+  background-position: center;
+  background-size: contain;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+}
+#stakedest{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#protectedt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#buytext{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+#buydesctext{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+}
+#buyinput{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid gray;
+  color: ghostwhite;
+  font-size: 20px;
+}
+#yougett{
+  position: absolute;
+  font-size: 15px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+}
+.popup{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+}
+.lorr{
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  background-color: royalblue;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.lorr:hover{
+  background-color: blue
+}
+#buyt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 33px
+}
+#rejectt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 23px
+}
+
+
+
+
+#addmmt{
+  position: absolute;
+  font-size: 15px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 0px;
+  margin-left: 12px;
+}
+
+#transconfirmedwrapper{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.6);
+  display: none;
+}
+#maindivtransconfirmed{
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+}
+#confirmedimg{
+  position: absolute;
+  height: 203px;
+  width: 152px;
+  background-image: url("img/transconfirmed.png");
+  margin-top: 30px;
+  margin-left:174px;
+  user-select: none;
+}
+#confirmedtext{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #003945;
+  user-select: none;
+  margin-top: 250px;
+}
+#closetransconfirmeddiv{
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  background-color: #3BC1AA;
+  margin-top: 310px;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+  margin-left: 100px;
+}
+#closetransconfirmeddiv:hover{
+  background-color: #298776;
+}
+#closetransconfirmedtext{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: ghostwhite;
+  user-select: none;
+  margin-top: 20px;
+  margin-left: 127px;
+}
+
+#rejectalert{
+  position: fixed;
+  height: 40px;
+  width: 200px;
+  background-color: #2B2F5B;
+  border-radius: 10px;
+  user-select: none;
+  margin-top: 20px;
+  display: none;
+}
+#rejectalertt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+#arrowup {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #2B2F5B;
+  position: fixed;
+  margin-top: 10px;
+  display: none;
+}
+#confirmalert{
+  position: fixed;
+  height: 40px;
+  width: 200px;
+  background-color: #2B2F5B;
+  border-radius: 10px;
+  user-select: none;
+  margin-top: 20px;
+  display: none;
+}
+#confirmalertt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: ghostwhite;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+#opensourcet{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: ghostwhite;
+  user-select: none;
+  margin-left: 10%;
+}
+a{
+  color: black;
+  cursor: pointer;
+}
+
+#stakedes{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: ghostwhite;
+  user-select: none;
+  margin-left: 10%;
+}
+#nextt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  margin-left: 28px;
+  margin-top: 4px
+}
+
+#after{
+  display: none;
+}
+#stakeamountt{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+}
+#inpvalforstake{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid gray;
+  color: ghostwhite;
+  font-size: 20px;
+}
+#stakedays{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+}
+#inpfordays{
+  position: absolute;
+  height: 30px;
+  width: 230px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border:  0.1px solid gray;
+  color: ghostwhite;
+  font-size: 20px;
+}
+
+#stakeclickt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 25px
+}
+#closestakeclickt{
+  position: absolute;
+  font-size: 16px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 3px
+}
+#rejectstakingt{
+  position: absolute;
+  font-size: 18px;
+  color: ghostwhite;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  margin-top: 5px;
+  margin-left: 23px
+}
+#alertstaking{
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  background-color: ghostwhite;
+  display: none;
+  border-radius: 10px;
+}
+
+#ttrue{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  display: none;
+}
+#ffalse{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: ghostwhite;
+  user-select: none;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#stakeclick{
+  display: none;
+}
+#closestakeclick{
+  display: none;
+}
