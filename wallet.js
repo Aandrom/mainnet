@@ -448,7 +448,7 @@ window.addEventListener('load', function () {
       $("#stake").css("display","none");
     })
 
-    userbalance()
+   // userbalance()
     setInterval(function () {
       userbalance();
       canActivateZIRr();
