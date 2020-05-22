@@ -198,7 +198,7 @@ setTimeout(function() {
   document.getElementById("arrowup").style.display="none";
   document.getElementById("confirmalert").style.display="none";
 },6000);
-contract.methods.buy().send({from: web3.givenProvider.selectedAddress,value:finalprice}).then(function (e) {
+contract.methods.buy().send({from: web3.givenProvider.selectedAddress,value:Math.floor(finalprice)}).then(function (e) {
 document.getElementById("transconfirmedwrapper").style.display="block";
 document.getElementById("maindivtransconfirmed").style.marginLeft=perc($(window).width(),50)-250+"px";
 document.getElementById("maindivtransconfirmed").style.marginTop=perc($(window).width(),10)+"px";
